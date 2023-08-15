@@ -1,8 +1,6 @@
-const { handlerMessage } = require('./handlerMessage');
+const { handlerMessage } = require('./PacketMessage/DeserializeMessage');
 
 let socket = new WebSocket('ws://localhost:8080');
-
-let userId;
 
 socket.addEventListener('error', function() {
     console.error();

@@ -1,7 +1,6 @@
-require('../server_resources/config');
+require('./resources/config');
+
 const { v4 : uuid } = require('uuid');
-// const EventEmitter  = require('events');
-// const eventEmitter = new EventEmitter();
 
 const { WebSocketServer } = require('ws');
 
