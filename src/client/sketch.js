@@ -1,4 +1,4 @@
-const entity = require('./entity');
+const entity = require('./Objects/entity');
 
 let fps = 60;
 

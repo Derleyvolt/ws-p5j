@@ -26,4 +26,6 @@ const PacketType = {
     }
 }
 
-PacketType.object.effect;
+module.exports = {
+    PacketType
+}

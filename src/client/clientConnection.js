@@ -1,4 +1,4 @@
-const { handlerMessage } = require('./PacketMessage/DeserializeMessage');
+const { handlerMessage } = require('./HandlerMessage/DeserializeMessage');
 
 let socket = new WebSocket('ws://localhost:8080');
 
